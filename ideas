@@ -18,9 +18,11 @@
 -netstat
 -ssh connect
 -ftp connect
+-scp
+-rsync
 -gpg
 -rsync
--du
+-du,df
 -Create versions with only one desktop and then the user chooses if he wants to install more desktop environments with taskel, apt-get or desktopify and then ask if he wants to download my themes from the internet. That way the distros are lighter.
 -Integrar Mycroft Assitant.
 https://github.com/MertcanGokgoz/UsefulBashScripts/tree/master/Scripts
@@ -83,4 +85,28 @@ snap list --all | awk '/disabled/{print $1, $3}' |
     while read snapname revision; do
         sudo snap remove "$snapname" --revision="$revision"
     done
+
+-Aumentar swap.
+-Activar Zswap, zram, zcache.
+-Date
+-Free
+-Last reboot
+-PWD
+-Where is firefox, which firefox.
+-ls -lh
+-Chown
+-Chattr
+-Whoami
+-Cat
+-Dpkg
+-Apt-get-check
+-Dump
+-gzip
+-ifconfig
+-hostname
+-netstat
+-uptime
+
+
+
 
