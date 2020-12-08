@@ -149,4 +149,7 @@ npm i -g npm
 -Scripts simples para actualizar repositorios, actualizar y eliminar automáticamente aplicaciones en los populares administradores de paquetes de Linux
 https://github.com/abbluiz/upgrade-linux-apps
 -https://github.com/lyra64/gentoo-upgrade
+-El asistente está en desarrollo, próximamente estará completamente en español, dispondrá de interfaz gráfica y tendrá comandos de voz. 
+
+
 
