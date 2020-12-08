@@ -118,6 +118,35 @@ cli-aptiX
 Sinopsis
 -Buscar paquetes por nombre y seleccionar desde lista cli https://github.com/BitJam/cli-aptiX
 -Apt update, upgrade... A slim and simple tool to make updating and upgrading with apt-get faster and easier. This is a root-only tool since apt-get https://github.com/Yo-kai-Sei-shin-kage/aptupdater
+-Linux upgrade search : https://github.com/search?p=13&q=linux+upgrade&type=Repositories
+-Ubuntu Debian: 
 
+sudo snap refresh , sudo npm i -g npm
 
+-Fedora: 
+# !/bin/bash
+
+# Dnf
+sudo dnf update -y
+sudo dnf upgrade -y
+sudo dnf clean all -y
+sudo dnf autoremove -y
+
+# Yum
+sudo yum update -y
+sudo yum upgrade -y
+sudo yum clean all -y
+
+# Flatpack
+sudo flatpak update -y
+
+# Snap
+sudo snap refresh
+
+# Npm
+npm i -g npm
+
+-Scripts simples para actualizar repositorios, actualizar y eliminar automáticamente aplicaciones en los populares administradores de paquetes de Linux
+https://github.com/abbluiz/upgrade-linux-apps
+-https://github.com/lyra64/gentoo-upgrade
 
