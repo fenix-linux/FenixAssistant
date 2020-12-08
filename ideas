@@ -111,7 +111,13 @@ snap list --all | awk '/disabled/{print $1, $3}' |
 -hostnamectl
 -uname -a
 -cp -p
-
+-https://github.com/Gregwar/notroot / Not root, install APT packages without root access
+-https://github.com/guilhem/apt-get-install
+-APt install que hace antes upgrade, clean, autoclean... https://github.com/guilhem/apt-get-install
+cli-aptiX
+Sinopsis
+-Buscar paquetes por nombre y seleccionar desde lista cli https://github.com/BitJam/cli-aptiX
+-Apt update, upgrade... A slim and simple tool to make updating and upgrading with apt-get faster and easier. This is a root-only tool since apt-get https://github.com/Yo-kai-Sei-shin-kage/aptupdater
 
 
 
